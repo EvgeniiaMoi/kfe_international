@@ -1,0 +1,205 @@
+/*Base*/
+* {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+/*Layout*/
+header .logo {
+  margin: 30px auto;
+}
+header nav {
+  background-color: #1c4489;
+  color: #f3f7f6;
+}
+header nav .main-menu {
+  list-style-type: none;
+  margin: auto;
+}
+header nav .main-menu li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+  margin-right: 3%;
+  border-bottom: 2px solid #1c4489;
+}
+header nav .main-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav .main-menu li a:hover {
+  text-decoration: none;
+}
+header nav .main-menu li:hover {
+  border-bottom: 2px solid #115fd4;
+}
+header nav .main-menu li:hover .dropdown-menu {
+  display: block;
+}
+header nav .main-menu li .dropdown-menu {
+  background-color: #133166;
+  top: 49px;
+  left: -2px;
+  width: 550px;
+  border-radius: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px  #115fd4 solid;
+}
+header nav .main-menu li .dropdown-menu a {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+header nav .main-menu li .dropdown-menu a:hover {
+  text-decoration: underline;
+}
+header nav .main-menu li .dropdown-menu .btn-default {
+  color: #fff;
+  background-color: transparent;
+  border: 2px #fff solid;
+  border-radius: 0;
+}
+header nav .main-menu li .dropdown-menu .btn-default:hover {
+  color: #133166;
+  background-color: #fff;
+}
+.main-banner .main-title {
+  background: url('../img/upper-back.jpg');
+  background-size: cover;
+  color: #f3f7f6;
+  padding-top: 3%;
+  padding-bottom: 15%;
+}
+.main-banner .main-title h1 {
+  margin: 0;
+}
+.main-banner .main-title p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.main-banner .main-title .learn-more-botton {
+  width: 75px;
+  height: 66px;
+  border: 2px solid #f3f7f6;
+  color: #f3f7f6;
+  padding: 10px 15px;
+  margin: auto;
+}
+.main-banner .main-title .learn-more-botton a {
+  color: #f3f7f6;
+  text-decoration: none;
+}
+.main-banner .some-facts-of-us {
+  background-color: #1c4489;
+  font-weight: 500;
+  color: #f3f7f6;
+  font-size: 3.5rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.benefits-of-moving h3 {
+  font-weight: 600;
+  color: #1e4388;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.benefits-of-moving .description-benefits {
+  margin-bottom: 3%;
+}
+.benefits-of-moving .description-benefits .glyphicon-ok {
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  color: #fff;
+  background-color: #1e4388;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.benefits-of-moving .description-benefits h4 {
+  color: #1e4388;
+}
+.testimonials-block {
+  background: url('../img/lower-back.jpg');
+  background-size: cover;
+  color: #f3f7f6;
+  padding-bottom: 5%;
+}
+.testimonials-block h3 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.testimonials-block .item {
+  color: #f3f7f6;
+}
+.testimonials-block .item-description .text-testimonial {
+  margin-top: 5%;
+}
+.testimonials-block .control-buttons {
+  width: 70px;
+  margin: auto;
+}
+.testimonials-block .control-buttons .carousel-control {
+  position: absolute;
+  top: -34px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+}
+.testimonials-block .control-buttons .carousel-control .glyphicon {
+  top: 4px;
+}
+.testimonials-block .control-buttons .left {
+  background: transparent;
+  left: 45%;
+  top: 0;
+  opacity: 0.5;
+}
+.testimonials-block .control-buttons .right {
+  background: transparent;
+  right: 45%;
+  top: 0;
+  opacity: 0.5;
+}
+.callback-block {
+  background-color: #115fd4;
+  color: #f3f7f6;
+  padding-bottom: 3%;
+}
+.callback-block .form-group {
+  margin-left: 1%;
+}
+.callback-block .form-group input {
+  border-radius: 0;
+  margin-left: 5px;
+  padding: 0;
+  height: 25px;
+}
+.callback-block .button-submit {
+  border-radius: 0;
+  padding: 15px 20px;
+  margin-left: 20px;
+  color: #115fd4;
+}
+.callback-block .form-inline .phone-number {
+  display: inline-block;
+  margin: 10px auto;
+  text-align: left;
+}
+footer {
+  background-color: #000;
+  color: #f3f7f6;
+}
+footer img {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+footer .our-summary {
+  margin-bottom: 2%;
+}
+footer .copyright {
+  margin-bottom: 5%;
+}
